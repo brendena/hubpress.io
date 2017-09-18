@@ -9,10 +9,10 @@
     "name": "casper"
   },
   "urls": {
-    "site": "https://brendena.github.io/hubpress.io",
-    "hubpress": "https://brendena.github.io/hubpress.io",
-    "theme": "//brendena.github.io/hubpress.io/themes/casper",
-    "images": "https://brendena.github.io/hubpress.io/images"
+    "site": "http://codersdilemma.com",
+    "hubpress": "http://codersdilemma.com",
+    "theme": "//codersdilemma.com/themes/casper",
+    "images": "http://codersdilemma.com/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
