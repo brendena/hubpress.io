@@ -11,7 +11,7 @@
   "urls": {
     "site": "https://brendena.github.io/hubpress.io",
     "hubpress": "https://brendena.github.io/hubpress.io",
-    "theme": "//brendena.github.io/hubpress.io/themes/casper",
+    "theme": "//brendena.github.io/hubpress.io/themes/ghostium ",
     "images": "https://brendena.github.io/hubpress.io/images"
   },
   "initialisationConfigComponent": {
