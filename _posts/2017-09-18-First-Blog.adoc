@@ -1,0 +1,31 @@
+// = Your Blog title
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+= First Blog
+
+My first blog going to be a bunch of tips for me to use hup press.  
+
+== Asciidoctor vs markdown
+
+=== cheat sheets
+  http://powerman.name/doc/asciidoc[asciiDoc]
+  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+
+=== Header 
+   mk - "# test"
+   Ascii -"= value"
+
+=== list
+	Mk 
+   "*  Unordered list can use asterisks"
+	  "- Or minuses"
+	  "+ Or pluses"
+    Assci
+
+  
+testing
+
