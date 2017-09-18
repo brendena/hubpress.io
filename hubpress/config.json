@@ -3,14 +3,14 @@
     "username": "brendena",
     "repositoryName": "hubpress.io",
     "branch": "gh-pages",
-    "cname": ""
+    "cname": "brendenadamczak.com"
   },
   "theme": {
     "name": "casper"
   },
   "urls": {
     "site": "http://brendenadamczak.com",
-    "hubpress": "https://brendena.github.io/hubpress.io",
+    "hubpress": "http://brendenadamczak.com",
     "theme": "//brendenadamczak.com/themes/casper",
     "images": "http://brendenadamczak.com/images"
   },
