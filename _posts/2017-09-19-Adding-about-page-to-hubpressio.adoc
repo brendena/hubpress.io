@@ -7,6 +7,10 @@
 
 = Adding about page to hubpress.io
 
+== goal - add about page - not supported
+
+I wanted to add a about page and a page to showcase my current progects.  But as of 
+
 So currently its not supported so i added a side link to a blog topic
 
 Its going to be support just not yet.
