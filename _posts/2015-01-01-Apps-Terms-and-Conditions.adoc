@@ -6,6 +6,6 @@
 // :hp-alt-title: My English Title
 
 
-= App help page
+= App's Terms and Conditions
 
 Message
