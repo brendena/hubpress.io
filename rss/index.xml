@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Sep 2017 19:42:52 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[First Blog]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Sep 2017 21:13:48 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding about page to hubpress.io]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_goal_add_about_page_not_supported">goal - add about page 'not supported'</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I wanted to add a about page and a page to showcase my current project.  Ghost a similiar blogger engine to hubpress.io - share themes can have <a href="https://themes.ghost.org/docs/page-context">static pages</a> that have there own static urls.  But as of this wrighting you can&#8217;t easily add page.  There planning on adding this feature but it is still a <a href="https://github.com/HubPress/hubpress.io/issues/354">open status</a> that will hopefullly be added by <a href="https://github.com/HubPress/hubpress.io/projects/2">version 0.9 of hubpress.io</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solution_1">solution 1</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To get around this what you can do is host a completely separate HTML page and edit your theme to link to this separate page.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://blog.jabby-techs.fr/about/">Example page</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/jabbytechnologies/blog/blob/gh-pages/about/index.html">and code</a></p>
+</div>
+<div class="paragraph">
+<p>This Solution is extremely flexible but is kind of janky solution so i opted for solution 2</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solution_2">solution 2</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Solution 2 is to create a blog post and link it to your main page.  This in my options is the most future proof way of adding in a about page.  Static pages are soon to arrive to hubpress.io and when they do they will rely on hidden post with custom templates.  So having your about page in asciiDoc and not a static html page will allow you to easily transition when static pages are added.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>First step is to create a blog and give it a early publish date.</p>
+<div class="literalblock">
+<div class="content">
+<pre>[AsciiDoc]
+----
+:published_at: 2015-01-31
+----</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>This forces it to be at the bottom of your blogs feed.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Then take the url of your newly created post and add that to nav bar.  Your find your theme inside of  <code>hubpress.io/themes/"yourTheme"/partials</code>.  I&#8217;m using the uno theme and my changed file was inside <code>side-panel.hbs</code>.  Inside i added the bellow link.  The {{@blog.url}} is the url of the base of your website "the www.example.com', and the rest is the address location of your post.</p>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;a href="{{@blog.url}}/2015/01/31/About-Page.html"&gt; about &lt;/a&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To reproduce my changes here&#8217;s a <a href="https://github.com/brendena/hubpress.io/commit/c5e0ff1bdef9d45511039655881b0492c07811a4">link to what i changed in my github page</a>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://raw.githubusercontent.com/brendena/hubpress.io/gh-pages/images/newAboutPage.png" alt="newAboutPage.png">
+</div>
+<div class="title">Figure 1. added about page</div>
+</div>
+</div>
+</div>]]></description><link>http://codersdilemma.com/2017/09/19/adding-about-page-to-hupbressio.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/19/adding-about-page-to-hupbressio.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[about]]></category><category><![CDATA[page]]></category><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Tue, 19 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[First Blog]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>My first blog going to be a bunch of tips for me to use hup press.</p>
