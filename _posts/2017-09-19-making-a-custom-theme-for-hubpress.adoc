@@ -1,0 +1,48 @@
+// = Your Blog title
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+
+= making a custom theme for hubpress
+
+
+installing ghost
+https://themes.ghost.org/docs/getting-started
+
+default 
+https://github.com/TryGhost/Casper
+
+
+idea of static pages
+http://byverdu.es/add-a-truly-static-page-in-ghost-using-the-casper-theme/
+
+extending ghost casper
+http://blog.pragmaticengineer.com/extending-the-ghost-default-theme-with-social-sidebars/
+
+
+Happing on linux
+
+
+Keywords
+Ghost
+handlebars
+
+steps
+
+1. install ghost
+
+2 pops up a link to see the site
+http://localhost:2368/
+
+3 enable live reloading
+
+
+4 ghost has its own editor
+website/ghost/
+
+password is password
+email is test@gmail.com
+
