@@ -10,3 +10,9 @@ To add images to your blog posts:
 image::http://github.com/<username>/<repositoryName>/images/<filename>[]
 ----
 . See http://asciidoctor.org/docs/asciidoc-writers-guide/ for complex examples of Image syntax.
+
+== my example
+[AsciiDoc]
+----
+https://raw.githubusercontent.com/brendena/hubpress.io/gh-pages/images/<filename>[]
+----
