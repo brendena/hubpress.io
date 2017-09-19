@@ -2,14 +2,36 @@
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 // :hp-image: /covers/cover.png
 // :published_at: 2019-01-31
-// :hp-tags: HubPress, Blog, Open_Source,
-// :hp-alt-title: My English Title
+:hp-tags: HubPress, about, page, 
+:hp-alt-title: adding about page to hupbress.io
 
 = Adding about page to hubpress.io
 
-== goal - add about page - not supported
+== goal - add about page 'not supported'
 
-I wanted to add a about page and a page to showcase my current progects.  But as of 
+I wanted to add a about page and a page to showcase my current progects.  Ghost a similiar blogger engine to hubpress.io - share themes can have https://themes.ghost.org/docs/page-context[static pages] that have there own static urls.  But as of this wrighting you can't easily add page.  There planning on adding this feature but it is still a https://github.com/HubPress/hubpress.io/issues/354[open status] that will hopefullly be added by https://github.com/HubPress/hubpress.io/projects/2[version 0.9 of hubpress.io].  
+
+== solution 1
+
+To get around this what you can do is host a completely html page and edit your theme to link to this seperate page.
+
+http://blog.jabby-techs.fr/about/[Example page]
+
+https://github.com/jabbytechnologies/blog/blob/gh-pages/about/index.html[and code]
+
+This Solution is extremely flexible but is kind of janky solution so i opted for soution 2
+
+== solution 2
+
+Solution 2 is to create a blog post and link it to your main page.  This in my options is the most future proof way of adding in a about page.  Static pages are soon to arrive to hubpress.io and when they do they will rely on hidden post with custom templates.  So having in asciiDoc will allow you to easily transition to way of doing custom static pages.
+
+1. First step is to create a blog and give it a early publish date so it will always be at the end of your blogs feed.
+
+
+`:published_at: 2019-01-31`
+
+
+
 
 So currently its not supported so i added a side link to a blog topic
 
