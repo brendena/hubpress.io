@@ -6,12 +6,12 @@
     "cname": "codersdilemma.com"
   },
   "theme": {
-    "name": "the-shell"
+    "name": "uno"
   },
   "urls": {
     "site": "http://codersdilemma.com",
     "hubpress": "http://codersdilemma.com",
-    "theme": "//codersdilemma.com/themes/casper",
+    "theme": "//codersdilemma.com/themes/the-shell",
     "images": "http://codersdilemma.com/images"
   },
   "initialisationConfigComponent": {
