@@ -37,4 +37,6 @@ So you have to have in the body where your text normal goes this line
 else it will not show you the option to save your posts.
 https://github.com/HubPress/hubpress.io/issues/459
 
+testing
+
 
