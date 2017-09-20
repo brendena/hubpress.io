@@ -1,0 +1,54 @@
+// = Your Blog title
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+:hp-tags: HubPress, Blog, Domain, Name, Server, Coding,
+// :hp-alt-title: My English Title
+
+= Domain Name Terms as coding analogy
+
+
+Records
+
+A 
+Analogy - int ARecord = 192.168.1.51
+A record's hold a reference to a specific   ipv4 address.
+
+AAAA
+
+AAAA record's hold a reference to a ipv6 address.
+Analog - long AAAARecord = 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+Cnames
+
+Cname is a reference to another DNS records like A records
+Analogy - var cNameDictionary;
+    cNameDictionary["www.BestExample.com"] = ARecord
+    cNameDictionary["www.anotherBestExample.com"] = ARecord
+    cNameDictionary["www.ipv6BestExample.com"] = AAAARecord
+
+// But Bellow will not work
+// Because Cname can not point to actually address.  It can only point to DNS records.
+cNameDictionary["www.testing.com"] = "www.working.com"  
+
+
+
+Great link
+https://blog.dnsimple.com/2015/04/common-dns-records/
+
+
+links
+types of forwarding
+https://www.namecheap.com/support/knowledgebase/article.aspx/9604/2237/types-of-domain-redirects--301-302-url-redirects-url-frame-and-cname
+
+cnames vs a record redirectors
+http://www.noip.com/blog/2011/07/11/what-is-the-difference-between-a-cname-record-a-record-and-redirect/
+
+http://totaluptime.com/kb/whats-the-difference-between-a-cname-and-a-web-redirect/
+
+https://support.dnsimple.com/articles/a-record/
+
+
+
+
+
