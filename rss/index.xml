@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Sep 2017 00:09:04 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding about page to hubpress.io]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Sep 2017 00:10:21 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding about page to hubpress.io]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_goal_add_about_page_not_supported">goal - add about page 'not supported'</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -69,6 +69,9 @@
 </div>
 </div>]]></description><link>http://codersdilemma.com/2017/09/19/adding-about-page-to-hupbressio.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/19/adding-about-page-to-hupbressio.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[about]]></category><category><![CDATA[page]]></category><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Tue, 19 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[First Blog]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/brendena/hubpress.io/gh-pages/images/teddyBear.jpg" alt="teddyBear.jpg"></span></p>
+</div>
 <div class="paragraph">
 <p>My first blog going to be a bunch of tips for me to use hup press.</p>
 </div>
