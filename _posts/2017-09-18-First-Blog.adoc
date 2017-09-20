@@ -5,9 +5,14 @@
 // :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
 
+
+
 = First Blog
 
+image:https://raw.githubusercontent.com/brendena/hubpress.io/gh-pages/images/teddyBear.jpg[]
+
 My first blog going to be a bunch of tips for me to use hup press.  
+
 
 == Asciidoctor vs markdown
 
