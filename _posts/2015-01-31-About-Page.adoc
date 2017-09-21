@@ -8,5 +8,9 @@
 
 = About Page
 
-Test testing 2
+  This blog is mostly going to be a showcase of all the problems i have on a day to day bases.  I want to fill in some of the gaps that cound't find out about a subject or clear up some of the idea's that aren't well explained on the internet.  
+  
+== topics
+  Its mostly going to be about whatever i'm currently working on, which includes lots of javascript, python and html code.  There might be some math and data science involved but most about the code that's involved in these subjects.
+  
 
