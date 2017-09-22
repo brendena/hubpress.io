@@ -1,0 +1,16 @@
+
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+= Limited Internet
+
+1. block internet for specific device at certain time.
+
+2. set a proxy to block specific sites.
+Set up squid and block lots of traffic.
+But i'm going to do this when i get my server.
+http://www.squidguard.org/
+https://lifehacker.com/5312820/five-best-content-filtering-tools
