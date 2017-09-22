@@ -9,6 +9,45 @@
 
 http://jaredleonmorgan.net/2016/01/12/Hub-Press-C-N-A-M-E-and-A-Records.html
 
+When you create a hubpress account it will be hosted with github pages and have a url of www.username.github.io.  Which is harder to remember then a standered .com address.  The fix for this is relitively simple and cost me around 15 dollars.
+
+Step 1.
+you have to buy a domain.  I will be showing how to do with google's domain name service but if you fallow these steps it should work with any website domain name.
+
+step 2
+
+. Open the HubPress Admin Console. "username.github.io/hubpress" 
+ 
+. Click `Settings`.
+
+. In the CNAME field, type in your domain name. You don’t need the www prefix.
+
+. Save your changes.
+
+This will add a cname file into your main directory in your gihtub page.  Inside the cname file will just be the url of your sites tile.
+
+image::https://github.com/brendena/hubpress.io/blob/gh-pages/images/cNameGithub.PNG?raw=true[]
+
+step 3 change DNS setting in domain name holder
+
+Go to google domain and click the dns setting page 
+
+image::https://github.com/brendena/hubpress.io/blob/gh-pages/images/googleDomainDns.png?raw=true[]
+
+At the bottom of the page you can add DNS records. You want to add a record with the bellow qualifications
+
+* name Blank
+* type = A
+* value = 192.30.252.153 and 192.30.252.164
+    
+ 
+image::https://github.com/brendena/hubpress.io/blob/gh-pages/images/domainRegistoryGoogleDomains.PNG?raw=true[]
+
+
+It might will take up to a hour for your domain will be redicrected to your new domain.  If the above doesn't work check this link to see if you need to change the https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider[ip address in the DNS records]
+
+
+
 
 
 
