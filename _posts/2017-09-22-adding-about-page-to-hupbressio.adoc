@@ -6,11 +6,11 @@
 :hp-alt-title: adding about page to hupbress.io
 
 
-= Adding about page to hubpress.io
+= Adding "about page" to hubpress.io
 
-== goal - add about page 'not supported'
+== goal - add "about page" is not supported
 
-I wanted to add a about page and a page to showcase my current project.  Ghost a similiar blogger engine to hubpress.io - share themes can have https://themes.ghost.org/docs/page-context[static pages] that have there own static urls.  But as of this wrighting you can't easily add page.  There planning on adding this feature but it is still a https://github.com/HubPress/hubpress.io/issues/354[open status] that will hopefullly be added by https://github.com/HubPress/hubpress.io/projects/2[version 0.9 of hubpress.io].  
+I wanted to add a page describing this website and a page to showcase my current project.  Ghost a similiar blogger engine to hubpress.io - can have https://themes.ghost.org/docs/page-context[static pages] that have there own static urls.  But as of this wrighting you can't easily add page.  There planning on adding this feature but it is still a https://github.com/HubPress/hubpress.io/issues/354[open status] that will hopefullly be added by https://github.com/HubPress/hubpress.io/projects/2[version 0.9 of hubpress.io].  
 
 == solution 1
 
