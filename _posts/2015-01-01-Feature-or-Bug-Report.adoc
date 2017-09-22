@@ -6,6 +6,7 @@
 // :hp-alt-title: My English Title
 
 
-= App help page
+= Feature or Bug Report
 
-Message
+If you are messaging me about a feature or have found a bug/problem with a app i've made please send me a email at bafeaturerequest@gmail.com
+
