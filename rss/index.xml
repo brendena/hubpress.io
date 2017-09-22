@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 22 Sep 2017 19:25:20 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding about page to hubpress.io]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 22 Sep 2017 19:28:17 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding custom domain to hubpress]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#160;  When you create a hubpress webpage it will be hosted with github pages and have a url of www.username.github.io.  Which is harder to remember then a standered .com address.  The fix for this is relitively simple and cost me around 15 dollars.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_step_1">Step 1</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#160; &#160; You need to have a custom domain.  I will be showing how to do with google&#8217;s domain name service but if you fallow these steps it should work with any website domain name.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_step_2">Step 2</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open the HubPress Admin Console. "username.github.io/hubpress"</p>
+</li>
+<li>
+<p>Click <code>Settings</code>.</p>
+</li>
+<li>
+<p>In the CNAME field, type in your domain name. You don’t need the www prefix.</p>
+</li>
+<li>
+<p>Save your changes.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>&#160; This will add a cname file into your main directory in your gihtub page.  Inside the cname file will just be the url of your sites tile.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/cNameGithub.PNG?raw=true" alt="cNameGithub.PNG?raw=true">
+</div>
+</div>
+<div class="paragraph">
+<p>&#160;<br></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_step_3_change_dns_setting_in_domain_name_holder">step 3 change DNS setting in domain name holder</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#160; 1. Go to google domain and click the dns setting page</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/googleDomainDns.png?raw=true" alt="googleDomainDns.png?raw=true">
+</div>
+</div>
+<div class="paragraph">
+<p>&#160; 2. At the bottom of the page you can add DNS records. You want to add a record with the bellow qualifications</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>name Blank</p>
+</li>
+<li>
+<p>type = A</p>
+</li>
+<li>
+<p>value = 192.30.252.153 and 192.30.252.164</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/domainRegistoryGoogleDomains.PNG?raw=true" alt="domainRegistoryGoogleDomains.PNG?raw=true">
+</div>
+</div>
+<div class="paragraph">
+<p>&#160; It might will take up to a hour for your domain will be redicrected to your new domain.  If the above doesn&#8217;t work check <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">this link</a> to see if you need to change the ip address in the DNS records.</p>
+</div>
+<div class="paragraph">
+<p>References</p>
+</div>
+<div class="paragraph">
+<p><a href="http://jaredleonmorgan.net/2016/01/12/Hub-Press-C-N-A-M-E-and-A-Records.html" class="bare">http://jaredleonmorgan.net/2016/01/12/Hub-Press-C-N-A-M-E-and-A-Records.html</a></p>
+</div>
+</div>
+</div>]]></description><link>http://codersdilemma.com/2017/09/22/Custom-domain-hubpress.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/22/Custom-domain-hubpress.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[Blog]]></category><category><![CDATA[custom domain]]></category><category><![CDATA[setup]]></category><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Fri, 22 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Adding about page to hubpress.io]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_goal_add_about_page_not_supported">goal - add about page 'not supported'</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -132,96 +221,7 @@ else it will not show you the option to save your posts.
 </div>
 </div>
 </div>
-</div>]]></description><link>http://codersdilemma.com/2017/09/18/First-Blog.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/18/First-Blog.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Mon, 18 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Adding custom domain to hubpress]]></title><description><![CDATA[<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>&#160;  When you create a hubpress webpage it will be hosted with github pages and have a url of www.username.github.io.  Which is harder to remember then a standered .com address.  The fix for this is relitively simple and cost me around 15 dollars.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_step_1">Step 1</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>&#160; &#160; You need to have a custom domain.  I will be showing how to do with google&#8217;s domain name service but if you fallow these steps it should work with any website domain name.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_step_2">Step 2</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Open the HubPress Admin Console. "username.github.io/hubpress"</p>
-</li>
-<li>
-<p>Click <code>Settings</code>.</p>
-</li>
-<li>
-<p>In the CNAME field, type in your domain name. You don’t need the www prefix.</p>
-</li>
-<li>
-<p>Save your changes.</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>&#160; This will add a cname file into your main directory in your gihtub page.  Inside the cname file will just be the url of your sites tile.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/cNameGithub.PNG?raw=true" alt="cNameGithub.PNG?raw=true">
-</div>
-</div>
-<div class="paragraph">
-<p>&#160;<br></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_step_3_change_dns_setting_in_domain_name_holder">step 3 change DNS setting in domain name holder</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>&#160; 1. Go to google domain and click the dns setting page</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/googleDomainDns.png?raw=true" alt="googleDomainDns.png?raw=true">
-</div>
-</div>
-<div class="paragraph">
-<p>&#160; 2. At the bottom of the page you can add DNS records. You want to add a record with the bellow qualifications</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>name Blank</p>
-</li>
-<li>
-<p>type = A</p>
-</li>
-<li>
-<p>value = 192.30.252.153 and 192.30.252.164</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/domainRegistoryGoogleDomains.PNG?raw=true" alt="domainRegistoryGoogleDomains.PNG?raw=true">
-</div>
-</div>
-<div class="paragraph">
-<p>&#160; It might will take up to a hour for your domain will be redicrected to your new domain.  If the above doesn&#8217;t work check <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">this link</a> to see if you need to change the ip address in the DNS records.</p>
-</div>
-<div class="paragraph">
-<p>References</p>
-</div>
-<div class="paragraph">
-<p><a href="http://jaredleonmorgan.net/2016/01/12/Hub-Press-C-N-A-M-E-and-A-Records.html" class="bare">http://jaredleonmorgan.net/2016/01/12/Hub-Press-C-N-A-M-E-and-A-Records.html</a></p>
-</div>
-</div>
-</div>]]></description><link>http://codersdilemma.com/2017/09/18/Adding-custom-domain-to-hubpress.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/18/Adding-custom-domain-to-hubpress.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Mon, 18 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[About Page]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>http://codersdilemma.com/2017/09/18/First-Blog.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/18/First-Blog.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Mon, 18 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[About Page]]></title><description><![CDATA[<div class="paragraph">
 <p>Test testing 2</p>
 </div>]]></description><link>http://codersdilemma.com/2015/01/31/About-Page.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/31/About-Page.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Sat, 31 Jan 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[App's Terms and Conditions]]></title><description><![CDATA[<div class="paragraph">
 <p>Message</p>
