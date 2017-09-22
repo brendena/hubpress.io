@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 22 Sep 2017 18:23:57 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding "about page" to hubpress.io]]></title><description><![CDATA[<div class="sect1">
-<h2 id="_goal_add_about_page_is_not_supported">goal - add "about page" is not supported</h2>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 22 Sep 2017 19:25:20 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding about page to hubpress.io]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_goal_add_about_page_not_supported">goal - add about page 'not supported'</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>I wanted to add a page describing this website and a page to showcase my current project.  Ghost a similiar blogger engine to hubpress.io - can have <a href="https://themes.ghost.org/docs/page-context">static pages</a> that have there own static urls.  But as of this wrighting you can&#8217;t easily add page.  There planning on adding this feature but it is still a <a href="https://github.com/HubPress/hubpress.io/issues/354">open status</a> that will hopefullly be added by <a href="https://github.com/HubPress/hubpress.io/projects/2">version 0.9 of hubpress.io</a>.</p>
+<p>I wanted to add a about page and a page to showcase my current project.  Ghost a similiar blogger engine to hubpress.io - share themes can have <a href="https://themes.ghost.org/docs/page-context">static pages</a> that have there own static urls.  But as of this wrighting you can&#8217;t easily add page.  There planning on adding this feature but it is still a <a href="https://github.com/HubPress/hubpress.io/issues/354">open status</a> that will hopefullly be added by <a href="https://github.com/HubPress/hubpress.io/projects/2">version 0.9 of hubpress.io</a>.</p>
 </div>
 </div>
 </div>
@@ -67,7 +67,7 @@
 <div class="title">Figure 1. added about page</div>
 </div>
 </div>
-</div>]]></description><link>http://codersdilemma.com/2017/09/22/adding-about-page-to-hupbressio.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/22/adding-about-page-to-hupbressio.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[about]]></category><category><![CDATA[page]]></category><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Fri, 22 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[First Blog]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>http://codersdilemma.com/2017/09/19/adding-about-page-to-hupbressio.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/19/adding-about-page-to-hupbressio.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[about]]></category><category><![CDATA[page]]></category><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Tue, 19 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[First Blog]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p><span class="image"><img src="https://raw.githubusercontent.com/brendena/hubpress.io/gh-pages/images/teddyBear.jpg" alt="teddyBear.jpg"></span></p>
@@ -132,24 +132,97 @@ else it will not show you the option to save your posts.
 </div>
 </div>
 </div>
-</div>]]></description><link>http://codersdilemma.com/2017/09/18/First-Blog.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/18/First-Blog.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Mon, 18 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[About Page]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>http://codersdilemma.com/2017/09/18/First-Blog.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/18/First-Blog.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Mon, 18 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Adding custom domain to hubpress]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This blog is mostly going to be a showcase of all the problems i have on a day to day basis.  I want to fill in some of the gaps that i cound&#8217;t find out about a subject or clear up some of the idea&#8217;s that aren&#8217;t well explained on the internet.</p>
+<p>&#160;  When you create a hubpress webpage it will be hosted with github pages and have a url of www.username.github.io.  Which is harder to remember then a standered .com address.  The fix for this is relitively simple and cost me around 15 dollars.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_topics">topics</h2>
+<h2 id="_step_1">Step 1</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Its mostly going to be about things i&#8217;m currently working on, which includes lots of javascript, python and html code.  There might be some math and data science involved but mostly about the code that&#8217;s involved in these subjects.</p>
+<p>&#160; &#160; You need to have a custom domain.  I will be showing how to do with google&#8217;s domain name service but if you fallow these steps it should work with any website domain name.</p>
 </div>
 </div>
-</div>]]></description><link>http://codersdilemma.com/2015/01/31/About-Page.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/31/About-Page.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Sat, 31 Jan 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[App's Terms and Conditions]]></title><description><![CDATA[<div class="paragraph">
-<p>Terms and Conditions ("Terms")
-Last updated: ​ 9/22/2017</p>
+</div>
+<div class="sect1">
+<h2 id="_step_2">Step 2</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open the HubPress Admin Console. "username.github.io/hubpress"</p>
+</li>
+<li>
+<p>Click <code>Settings</code>.</p>
+</li>
+<li>
+<p>In the CNAME field, type in your domain name. You don’t need the www prefix.</p>
+</li>
+<li>
+<p>Save your changes.</p>
+</li>
+</ol>
 </div>
 <div class="paragraph">
-<p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before usingthe ​http://www.mywebsite.com (change this)​ website and the ​My Mobile App (change this)​ mobileapplication (the "Service") operated by ​My Company (change this)​ ("us", "we", or "our").Your access to and use of the Service is conditioned on your acceptance of and compliance withthese Terms. These Terms apply to all visitors, users and others who access or use the Service.By accessing or using the Service you agree to be bound by these Terms. If you disagreewith any part of the terms then you may not access the Service.PurchasesIf you wish to purchase any product or service made available through the Service ("Purchase"),you may be asked to supply certain information relevant to your Purchase including, withoutlimitation, your &#8230;&#8203;The Purchases section is for businesses that sell online (physical or digital). For the fulldisclosure section, ​create your own Terms and Conditions​.SubscriptionsSome parts of the Service are billed on a subscription basis ("Subscription(s)"). You will be billed inadvance on a recurring &#8230;&#8203;The Subscriptions section is for SaaS businesses. For the full disclosure section, ​create yourown Terms and Conditions​.ContentOur Service allows you to post, link, store, share and otherwise make available certain information,text, graphics, videos, or other material ("Content"). You are responsible for the &#8230;&#8203;The Content section is for businesses that allow users to create, edit, share, make content ontheir websites or apps. For the full disclosure section, ​create your own Terms and Conditions​.</p>
+<p>&#160; This will add a cname file into your main directory in your gihtub page.  Inside the cname file will just be the url of your sites tile.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/cNameGithub.PNG?raw=true" alt="cNameGithub.PNG?raw=true">
+</div>
+</div>
+<div class="paragraph">
+<p>&#160;<br></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_step_3_change_dns_setting_in_domain_name_holder">step 3 change DNS setting in domain name holder</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#160; 1. Go to google domain and click the dns setting page</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/googleDomainDns.png?raw=true" alt="googleDomainDns.png?raw=true">
+</div>
+</div>
+<div class="paragraph">
+<p>&#160; 2. At the bottom of the page you can add DNS records. You want to add a record with the bellow qualifications</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>name Blank</p>
+</li>
+<li>
+<p>type = A</p>
+</li>
+<li>
+<p>value = 192.30.252.153 and 192.30.252.164</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://github.com/brendena/hubpress.io/blob/gh-pages/images/domainRegistoryGoogleDomains.PNG?raw=true" alt="domainRegistoryGoogleDomains.PNG?raw=true">
+</div>
+</div>
+<div class="paragraph">
+<p>&#160; It might will take up to a hour for your domain will be redicrected to your new domain.  If the above doesn&#8217;t work check <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">this link</a> to see if you need to change the ip address in the DNS records.</p>
+</div>
+<div class="paragraph">
+<p>References</p>
+</div>
+<div class="paragraph">
+<p><a href="http://jaredleonmorgan.net/2016/01/12/Hub-Press-C-N-A-M-E-and-A-Records.html" class="bare">http://jaredleonmorgan.net/2016/01/12/Hub-Press-C-N-A-M-E-and-A-Records.html</a></p>
+</div>
+</div>
+</div>]]></description><link>http://codersdilemma.com/2017/09/18/Adding-custom-domain-to-hubpress.html</link><guid isPermaLink="true">http://codersdilemma.com/2017/09/18/Adding-custom-domain-to-hubpress.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Mon, 18 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[About Page]]></title><description><![CDATA[<div class="paragraph">
+<p>Test testing 2</p>
+</div>]]></description><link>http://codersdilemma.com/2015/01/31/About-Page.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/31/About-Page.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Sat, 31 Jan 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[App's Terms and Conditions]]></title><description><![CDATA[<div class="paragraph">
+<p>Message</p>
 </div>]]></description><link>http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Thu, 01 Jan 2015 00:00:00 GMT</pubDate></item></channel></rss>
