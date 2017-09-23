@@ -30,15 +30,16 @@ Solution 2 is to create a blog post and link it to your main page.  This in my o
 
 [AsciiDoc]
 ----
-:published_at: 2015-01-31
+          :published_at: 2015-01-31
 ----
-
 This forces it to be at the bottom of your blogs feed.
 
 . Then take the url of your newly created post and add that to nav bar.  Your find your theme inside of  `hubpress.io/themes/"yourTheme"/partials`.  I'm using the uno theme and my changed file was inside `side-panel.hbs`.  Inside i added the bellow link.  The {{@blog.url}} is the url of the base of your website "the www.example.com', and the rest is the address location of your post.
+
+
 [html]
 ----
-<a href="{{@blog.url}}/2015/01/31/About-Page.html"> about </a>
+    <a href="{{@blog.url}}/2015/01/31/About-Page.html"> about </a>
 ----
 
 To reproduce my changes here's a https://github.com/brendena/hubpress.io/commit/c5e0ff1bdef9d45511039655881b0492c07811a4[link to what i changed in my github page].
