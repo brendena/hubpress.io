@@ -28,12 +28,12 @@ Solution 2 is to create a blog post and link it to your main page.  This in my o
 
 . First step is to create a blog and give it a early publish date.
 
-  [AsciiDoc]
-  ----
-  :published_at: 2015-01-31
-  ----
+[AsciiDoc]
+----
+:published_at: 2015-01-31
+----
 
- This forces it to be at the bottom of your blogs feed.
+This forces it to be at the bottom of your blogs feed.
 
 . Then take the url of your newly created post and add that to nav bar.  Your find your theme inside of  `hubpress.io/themes/"yourTheme"/partials`.  I'm using the uno theme and my changed file was inside `side-panel.hbs`.  Inside i added the bellow link.  The {{@blog.url}} is the url of the base of your website "the www.example.com', and the rest is the address location of your post.
 [html]
