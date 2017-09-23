@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//codersdilemma.com/themes/uno/assets/css/uno.css?v=1506125943894" />
+    <link rel="stylesheet" type="text/css" href="//codersdilemma.com/themes/uno/assets/css/uno.css?v=1506126340594" />
 
     <link rel="canonical" href="http://codersdilemma.com/2017/09/22/adding-about-page-to-hupbressio.html" />
     <meta name="referrer" content="origin" />
@@ -190,20 +190,19 @@
 <ol class="arabic">
 <li>
 <p>First step is to create a blog and give it a early publish date.</p>
-<div class="literalblock">
-<div class="content">
-<pre>[AsciiDoc]
-----
-:published_at: 2015-01-31
-----</pre>
-</div>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>This forces it to be at the bottom of your blogs feed.</pre>
-</div>
-</div>
 </li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>:published_at: 2015-01-31</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This forces it to be at the bottom of your blogs feed.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>Then take the url of your newly created post and add that to nav bar.  Your find your theme inside of  <code>hubpress.io/themes/"yourTheme"/partials</code>.  I&#8217;m using the uno theme and my changed file was inside <code>side-panel.hbs</code>.  Inside i added the bellow link.  The {{@blog.url}} is the url of the base of your website "the www.example.com', and the rest is the address location of your post.</p>
 </li>
@@ -253,7 +252,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//codersdilemma.com/themes/uno/assets/js/main.js?v=1506125943894"></script>
+    <script type="text/javascript" src="//codersdilemma.com/themes/uno/assets/js/main.js?v=1506126340594"></script>
     
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

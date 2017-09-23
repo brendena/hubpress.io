@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Sep 2017 00:19:03 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding "about page" to hubpress.io]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Sep 2017 00:25:40 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding "about page" to hubpress.io]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_goal_add_about_page_is_not_supported">goal - add "about page" is not supported</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -33,20 +33,19 @@
 <ol class="arabic">
 <li>
 <p>First step is to create a blog and give it a early publish date.</p>
-<div class="literalblock">
-<div class="content">
-<pre>[AsciiDoc]
-----
-:published_at: 2015-01-31
-----</pre>
-</div>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>This forces it to be at the bottom of your blogs feed.</pre>
-</div>
-</div>
 </li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>:published_at: 2015-01-31</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This forces it to be at the bottom of your blogs feed.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>Then take the url of your newly created post and add that to nav bar.  Your find your theme inside of  <code>hubpress.io/themes/"yourTheme"/partials</code>.  I&#8217;m using the uno theme and my changed file was inside <code>side-panel.hbs</code>.  Inside i added the bellow link.  The {{@blog.url}} is the url of the base of your website "the www.example.com', and the rest is the address location of your post.</p>
 </li>
