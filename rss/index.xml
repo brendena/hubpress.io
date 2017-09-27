@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Sep 2017 00:30:23 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding "about page" to hubpress.io]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 27 Sep 2017 16:52:02 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Adding "about page" to hubpress.io]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_goal_add_about_page_is_not_supported">goal - add "about page" is not supported</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -236,10 +236,43 @@ else it will not show you the option to save your posts.
 </div>
 </div>]]></description><link>http://codersdilemma.com/2015/01/31/About-Page.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/31/About-Page.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Sat, 31 Jan 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Feature or Bug Report]]></title><description><![CDATA[<div class="paragraph">
 <p>If you are messaging me about a feature or have found a bug/problem with a app i&#8217;ve made please send me a email at <a href="mailto:bafeaturerequest@gmail.com">bafeaturerequest@gmail.com</a></p>
-</div>]]></description><link>http://codersdilemma.com/2015/01/01/Feature-or-Bug-Report.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/01/Feature-or-Bug-Report.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Thu, 01 Jan 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[App's Terms and Conditions]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>http://codersdilemma.com/2015/01/01/Feature-or-Bug-Report.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/01/Feature-or-Bug-Report.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Thu, 01 Jan 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[App's Terms and Conditions]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
 <p>Terms and Conditions ("Terms")
-Last updated: ​ 9/22/2017</p>
+Last updated: ​ 9/27/2017</p>
 </div>
 <div class="paragraph">
-<p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before usingthe ​http://www.mywebsite.com (change this)​ website and the ​My Mobile App (change this)​ mobileapplication (the "Service") operated by ​My Company (change this)​ ("us", "we", or "our").Your access to and use of the Service is conditioned on your acceptance of and compliance withthese Terms. These Terms apply to all visitors, users and others who access or use the Service.By accessing or using the Service you agree to be bound by these Terms. If you disagreewith any part of the terms then you may not access the Service.PurchasesIf you wish to purchase any product or service made available through the Service ("Purchase"),you may be asked to supply certain information relevant to your Purchase including, withoutlimitation, your &#8230;&#8203;The Purchases section is for businesses that sell online (physical or digital). For the fulldisclosure section, ​create your own Terms and Conditions​.SubscriptionsSome parts of the Service are billed on a subscription basis ("Subscription(s)"). You will be billed inadvance on a recurring &#8230;&#8203;The Subscriptions section is for SaaS businesses. For the full disclosure section, ​create yourown Terms and Conditions​.ContentOur Service allows you to post, link, store, share and otherwise make available certain information,text, graphics, videos, or other material ("Content"). You are responsible for the &#8230;&#8203;The Content section is for businesses that allow users to create, edit, share, make content ontheir websites or apps. For the full disclosure section, ​create your own Terms and Conditions​.</p>
+<p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the <a href="http://www.codersdilemma.com" class="bare">http://www.codersdilemma.com</a>  website and the My Mobile App application  operated by BAProductions ("us", "we", or "our").
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
+</div>
+<div class="paragraph">
+<p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_links_to_other_web_sites">Links To Other Web Sites</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Our Service may contain links to third-party web sites or services that are not owned or controlled by BAProductions. BAProductions has no control over, and assumes no responsibility for, the content,privacy policies, or practices of any third party web sites or services. You further acknowledge and
+agree that BAProductions shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_uses_of_data_data_services">Uses of data/ Data services</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Data aquired from analytics will not be bought or sold and is only used for maintaining the site.  In the event that one of my apps uses or come incontact with your personal information i will not store or save the data on any personal servers.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_changes">Changes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 10 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
+</div>
+</div>
 </div>]]></description><link>http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Thu, 01 Jan 2015 00:00:00 GMT</pubDate></item></channel></rss>
