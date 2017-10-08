@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 06 Oct 2017 20:57:43 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Making working with google app script easier]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[coder's dilemma]]></title><description><![CDATA[coder's dilemma]]></description><link>http://codersdilemma.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 08 Oct 2017 10:39:35 GMT</lastBuildDate><atom:link href="http://codersdilemma.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Making working with google app script easier]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__a_href_https_developers_google_com_apps_script_guides_html_best_practices_separate_html_css_and_javascript_seperating_html_from_javascript_and_css_a"><a href="https://developers.google.com/apps-script/guides/html/best-practices#separate_html_css_and_javascript">Seperating HTMl From Javascript and CSS</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -321,4 +321,99 @@ agree that BAProductions shall not be responsible or liable, directly or indirec
 <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 10 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
 </div>
 </div>
-</div>]]></description><link>http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Thu, 01 Jan 2015 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</link><guid isPermaLink="true">http://codersdilemma.com/2015/01/01/Apps-Terms-and-Conditions.html</guid><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Thu, 01 Jan 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Privacy Policy for codersDilemma]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at <a href="mailto:codersDilemma@gmail.com">Privacy</a>.</p>
+</div>
+<div class="paragraph">
+<p>At www.codersDilemma.com we consider the privacy of our visitors to be extremely important. This privacy policy document describes in detail the types of personal information is collected and recorded by www.codersDilemma.com and how we use it.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_log_files">Log Files</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Like many other Web sites, www.codersDilemma.com makes use of log files. These files merely logs visitors to the site - usually a standard procedure for hosting companies and a part of hosting services&#8217;s analytics. The information inside the log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date/time stamp, referring/exit pages, and possibly the number of clicks. This information is used to analyze trends, administer the site, track user&#8217;s movement around the site, and gather demographic information. IP addresses, and other such information are not linked to any information that is personally identifiable.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cookies_and_web_beacons">Cookies and Web Beacons</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>www.codersDilemma.com uses cookies to store information about visitors' preferences, to record user-specific information on which pages the site visitor accesses or visits, and to personalize or customize our web page content based upon visitors' browser type or other information that the visitor sends via their browser.
+DoubleClick DART Cookie</p>
+</div>
+<div class="paragraph">
+<p>Google, as a third party vendor, uses cookies to serve ads on
+www.codersDilemma.com.</p>
+</div>
+<div class="paragraph">
+<p>Google&#8217;s use of the DART cookie enables it to serve ads to our site&#8217;s visitors based upon their visit to www.codersDilemma.com and other sites on the Internet.</p>
+</div>
+<div class="paragraph">
+<p>Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy at the following URL - <a href="http://www.google.com/privacy_ads.html" class="bare">http://www.google.com/privacy_ads.html</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_our_advertising_partners">Our Advertising Partners</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Some of our advertising partners may use cookies and web beacons on our site. Our advertising partners include &#8230;&#8203;&#8230;&#8203;.
+* Google
+* Amazon
+* DoubleClick</p>
+</div>
+<div class="paragraph">
+<p>While each of these advertising partners has their own Privacy Policy for their site, an updated and hyperlinked resource is maintained here: Privacy Policies.
+You may consult this listing to find the privacy policy for each of the advertising partners of www.coderdilemma.com.
+These third-party ad servers or ad networks use technology in their respective advertisements and links that appear on www.coderdilemma.com and which are sent directly to your browser. They automatically receive your IP address when this occurs. Other technologies (such as cookies, JavaScript, or Web Beacons) may also be used by our site&#8217;s third-party ad networks to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on the site.
+www.coderdilemma.com has no access to or control over these cookies that are used by third-party advertisers.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_third_party_privacy_policies">Third Party Privacy Policies</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You should consult the respective privacy policies of these third-party ad servers for more detailed information on their practices as well as for instructions about how to opt-out of certain practices. www.codersDilemma.com&#8217;s privacy policy does not apply to, and we cannot control the activities of, such other advertisers or web sites. You may find a comprehensive listing of these privacy policies and their links here: Privacy Policy Links.
+If you wish to disable cookies, you may do so through your individual browser options. More detailed information about cookie management with specific web browsers can be found at the browsers' respective websites. What Are Cookies?</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_children_s_information">Children&#8217;s Information</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We believe it is important to provide added protection for children online. We encourage parents and guardians to spend time online with their children to observe, participate in and/or monitor and guide their online activity. www.codersDilemma.com does not knowingly collect any personally identifiable information from children under the age of 13. If a parent or guardian believes that www.codersDilemma.com has in its database the personally-identifiable information of a child under the age of 13, please contact us immediately (using the contact in the first paragraph) and we will use our best efforts to promptly remove such information from our records.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_online_privacy_policy_only">Online Privacy Policy Only</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This privacy policy applies only to our online activities and is valid for visitors to our website and regarding information shared and/or collected there. This policy does not apply to any information collected offline or via channels other than this website.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_consent">Consent</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>By using our website, you hereby consent to our privacy policy and agree to its terms.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_update">Update</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This Privacy Policy was last updated on: Saturday, October 7th, 2017.
+Should we update, amend or make any changes to our privacy policy, those changes will be posted here.</p>
+</div>
+</div>
+</div>]]></description><link>http://codersdilemma.com/2014/01/01/Privacy-Policy-for-coders-Dilemma.html</link><guid isPermaLink="true">http://codersdilemma.com/2014/01/01/Privacy-Policy-for-coders-Dilemma.html</guid><category><![CDATA[google]]></category><category><![CDATA[policy]]></category><dc:creator><![CDATA[Brenden Adamczak]]></dc:creator><pubDate>Wed, 01 Jan 2014 00:00:00 GMT</pubDate></item></channel></rss>
