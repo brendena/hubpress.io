@@ -1,4 +1,10 @@
-# Privacy Policy for codersDilemma
+= Privacy Policy for codersDilemma
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+//:hp-image: /covers/appScriptEaiser.PNG
+:published_at: 2014-01-01
+:hp-tags: google, policy
+// :hp-alt-title: My English Title
+
 
 If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at mailto:codersDilemma@gmail.com[Privacy].
 
