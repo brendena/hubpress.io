@@ -1,4 +1,4 @@
-= Making working with google app script easier
+= Making google app script easier
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 :hp-image: /covers/appScriptEaiser.PNG
 :published_at: 2017-10-06
