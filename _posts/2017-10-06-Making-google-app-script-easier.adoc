@@ -1,0 +1,39 @@
+= Making working with google app script easier
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-image: /covers/appScriptEaiser.PNG
+:published_at: 2017-10-06
+:hp-tags: google, app, script, easier
+// :hp-alt-title: My English Title
+
+
+## https://developers.google.com/apps-script/guides/html/best-practices#separate_html_css_and_javascript[Seperating HTMl From Javascript and CSS]
+
+{nbsp} {nbsp} Inside of the google's app script editor you are not allowed to create file that are not html or gs file times.  Which could potential makes the practice of sepearting out your code  very hard.  To get around this they allow you to use a templating system called https://developers.google.com/apps-script/guides/html/templates[Scriptlets]. 
+So instead of creating html file or javascript you file you create html file that have script or style tags inside of them and then important the entire file.
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <base target="_top">
+      <?!= include('Stylesheet'); ?>
+    </head>
+    <body>
+      <?!= include('JavaScript'); ?>
+    </body>
+  </html>
+
+## https://developers.google.com/apps-script/add-ons/[Libraries] 
+
+{nbsp} {nbsp}If you have many project that use many of the same code base you can build a library to share code between the projects.  Librarys are just static instances of a stand alone project that your sharing with other projects.  When you need to make changes to the library you have to push a new version of the library and then you have to change it from within the project that you are using the library with.
+  
+## https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo[Git intergration]
+
+{nbsp} {nbsp}https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo[Google Apps Script Github Assistant] allows you to sync your extension to github for perment version control of your project.  You can pull and push all your code to with very minimal hassel. This extension is fully featured you can have branches and manage what get sync and what doesn't.   Google has a versioning for there libraries but this is only used for allowing other to use the library and you can't pull down a older version and work on it.  
+
+## https://chrome.google.com/webstore/detail/appsscript-color/ciggahcpieccaejjdpkllokejakhkome[AppsScript Color]
+
+
+{nbsp} {nbsp}This extension add a dark theme and add the functionality of folder.  Its a really nice touch.
+
+
+
