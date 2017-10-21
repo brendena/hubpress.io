@@ -8,7 +8,9 @@
 [[ppHeader]]
 fit sync Privacy Policy 
 
-Master-Google-Sheet-Documents Privacy Policy
+Merge Google Sheet Privacy Policy
+
+Math Equations Privacy Policy
 
 
 This privacy policy has been compiled to better serve those who are
